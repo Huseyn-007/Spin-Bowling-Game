@@ -1,0 +1,45 @@
+* {
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    
+
+}
+
+body{
+    background-color: #a0c3d6;
+}
+
+#swingText {
+    font-size: 6em;
+    font-weight: bold;
+    color: #333;
+    animation: swing 2s infinite;
+    margin-left: 800px;
+}
+
+@keyframes swing {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(10px); }
+    50% { transform: translateX(0); }
+    75% { transform: translateX(-10px); }
+    100% { transform: translateX(0); }
+}
+
+
+button{
+    width: 200px;
+    height: 100px;
+    font-size: 4em;
+    background-color: transparent;
+    border: 0;
+    color: white;
+}
+
+button:hover{
+    color: yellow;
+    cursor: pointer;
+}
+
+

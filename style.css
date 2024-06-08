@@ -1,0 +1,98 @@
+* {
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+body {
+    margin: 0;
+    overflow: hidden;
+    position: fixed;
+    font-family: frivFont;
+    font-size: 2em;
+    color: #fff;
+    background-color: indigo;
+
+}
+
+.game {
+    margin-left: 400px;
+    margin-top: 100px;
+    box-shadow: 0 0 5vmin 1vmin black;
+    background: #a0c3d6;
+    width: 1300px;
+    height: 701px;
+}
+
+.level {
+    width: 215px;
+    height: 31px;
+    background-color: white;
+    color: black;
+    border: 5px solid black;
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+    padding-top: 10PX;
+    padding-bottom: 10PX;
+    font-weight: bold;
+    font-style: italic;
+}
+
+p {
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+
+.zemin {
+    width: 527px;
+    height: 26px;
+    background-color: #f2f2f2;
+    border: 3px solid black;
+    border-radius: 5px;
+    position: absolute;
+    top: 550px;
+    margin-left: 250px;
+}
+
+#zemin-2 {
+    width: 227px;
+    height: 26px;
+    background-color: gray;
+    border: 3px solid black;
+    border-radius: 5px;
+    margin-left: 830px;
+    margin-top: 200px;
+    transform-style: preserve-3d;
+
+
+
+
+}
+
+.pins {
+    position: absolute;
+    width: 100px;
+    left: 750px;
+    top: 415px;
+    display: flex;
+    user-select: none;
+}
+
+img {
+    width: 40px;
+    margin-left: 10px;
+
+
+}
+
+#ball {
+    width: 70px;
+    position: absolute;
+    left: 1300px;
+    top: 312px;
+    transition: left 0.6s ease;
+}
